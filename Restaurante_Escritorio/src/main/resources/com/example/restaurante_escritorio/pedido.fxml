@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurante_escritorio.PedidoController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #FF8C8C;">
+            <children>
+                <Label fx:id="lblMesa" text="Pedido Mesa X">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+
+        <VBox alignment="CENTER" spacing="10.0">
+            <children>
+                <TableView fx:id="tablePedido" prefHeight="300.0" prefWidth="580.0">
+                    <columns>
+                        <TableColumn fx:id="colNombre" prefWidth="250.0" text="Nombre" />
+                        <TableColumn fx:id="colCantidad" prefWidth="100.0" text="Cantidad" />
+                        <TableColumn fx:id="colPrecio" prefWidth="230.0" text="Precio Unidad" />
+                    </columns>
+                </TableView>
+                <Button fx:id="btnConfirmar" mnemonicParsing="false" onAction="#confirmarPedido" style="-fx-background-color: #007BFF; -fx-text-fill: white;" text="Confirmar Pedido" />
+                <Button mnemonicParsing="false" onAction="#volverAMesas" text="Volver a Mesas" />
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </VBox>
+    </children>
+</VBox>

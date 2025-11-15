@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacturaActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF8C8C"
+        android:fontFamily="@font/lexend_giga"
+        android:gravity="center"
+        android:text="LEADERS"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/lexend_giga"
+        android:gravity="center"
+        android:text="FACTURA"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/borde_discontinuo_horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFactura"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_factura"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/borde_discontinuo_horizontal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/textoTotalLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/borde_total"
+            android:fontFamily="@font/lexend_giga"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="TOTAL"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/botonPagar"
+            app:layout_constraintStart_toEndOf="@id/botonVolver"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textoTotalCantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_cantidad"
+            android:fontFamily="@font/lexend_giga"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/textoTotalLabel"
+            app:layout_constraintStart_toStartOf="@id/textoTotalLabel"
+            app:layout_constraintTop_toBottomOf="@id/textoTotalLabel"
+            tools:text="73,20 €" />
+
+        <Button
+            android:id="@+id/botonPagar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/boton_pagar"
+            android:drawableTop="@drawable/icono_aceptar"
+            android:gravity="center"
+            android:paddingTop="18dp"
+            app:layout_constraintBottom_toBottomOf="@id/textoTotalCantidad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textoTotalLabel" />
+
+        <Button
+            android:id="@+id/botonVolver"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/boton_salir"
+            android:drawableTop="@drawable/icono_salir"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/textoTotalCantidad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textoTotalLabel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

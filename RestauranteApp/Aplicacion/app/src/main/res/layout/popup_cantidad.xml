@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nombrePedidoPopup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Plato"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/lexend_giga"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/menosCantidadPopup"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="-"
+            android:textSize="24dp"
+            android:fontFamily="@font/lexend_giga" />
+
+        <EditText
+            android:id="@+id/cantidadPedidoPopup"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:fontFamily="@font/lexend_giga" />
+
+        <Button
+            android:id="@+id/masCantidadPopup"
+            android:text="+"
+            android:textSize="24dp"
+            android:fontFamily="@font/lexend_giga"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancelarCantidadPopup"
+            android:text="Cancelar"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend_giga"/>
+
+        <Button
+            android:id="@+id/aceptarCantidadPopup"
+            android:text="Aceptar"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend_giga"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF8C8C"
+        android:gravity="center"
+        android:fontFamily="@font/lexend_giga"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="LEADERS" />
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:fontFamily="@font/lexend_giga"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="SELECCIONA TU MESA" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/borde_discontinuo_horizontal"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/mesa1"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="484dp"
+            android:background="@drawable/boton_generico"
+            android:fontFamily="@font/lexend_giga"
+            android:text="MESA 1"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/mesa2"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="374dp"
+            android:background="@drawable/boton_generico"
+            android:fontFamily="@font/lexend_giga"
+            android:text="MESA 2"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/mesa3"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="264dp"
+            android:background="@drawable/boton_generico"
+            android:fontFamily="@font/lexend_giga"
+            android:text="MESA 3"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/mesa4"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="154dp"
+            android:background="@drawable/boton_generico"
+            android:fontFamily="@font/lexend_giga"
+            android:text="MESA 4"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/mesa5"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/boton_generico"
+            android:fontFamily="@font/lexend_giga"
+            android:text="MESA 5"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/botonSalir"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/boton_salir"
+            android:drawableTop="@drawable/icono_salir"
+            android:gravity="center"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tint="@color/black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

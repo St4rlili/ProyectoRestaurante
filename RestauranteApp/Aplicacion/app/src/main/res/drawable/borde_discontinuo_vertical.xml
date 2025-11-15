@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="-500dp"
+        android:right="-500dp">
+        <rotate
+            android:drawable="@drawable/borde_discontinuo_horizontal"
+            android:fromDegrees="90"
+            android:toDegrees="90"/>
+    </item>
+</layer-list>
