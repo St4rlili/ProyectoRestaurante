@@ -11,7 +11,7 @@ public class Launcher extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/restaurante_escritorio/mesas.fxml"));
         Scene scene = new Scene(loader.load(), 680, 500);
-        stage.setTitle("Gestión Escritorio");
+        stage.setTitle("Gestión Restaurante");
         stage.setScene(scene);
         stage.show();
     }
