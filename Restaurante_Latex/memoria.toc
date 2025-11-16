@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Mayores complicaciones y desafíos}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Aplicación móvil}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Lenguaje e IDE}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}RecyclerView}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Retrofit}{2}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Aplicación de escritorio}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}CompletableFuture}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Refrescar estados}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}API/Express}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Bibliografía}{5}{chapter.2}%

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Circle?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="689.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurante_escritorio.MesasController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="689.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurante_escritorio.MesasController">
    <children>
       <HBox alignment="CENTER" prefHeight="69.0" prefWidth="689.0" style="-fx-background-color: #FF8C8C;">
          <children>
@@ -24,7 +21,7 @@
       <Pane fx:id="paneMesa1" layoutX="142.0" layoutY="122.0" onMouseClicked="#manejarClickMesa" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
          <children>
             <Circle fx:id="circleMesa1" layoutX="60.0" layoutY="40.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesa 1">
+            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESA 1">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -36,7 +33,7 @@
       <Pane fx:id="paneMesa2" layoutX="428.0" layoutY="122.0" onMouseClicked="#manejarClickMesa" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
          <children>
             <Circle fx:id="circleMesa2" layoutX="60.0" layoutY="40.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesa 2">
+            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESA 2">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -48,7 +45,7 @@
       <Pane fx:id="paneMesa3" layoutX="285.0" layoutY="243.0" onMouseClicked="#manejarClickMesa" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
          <children>
             <Circle fx:id="circleMesa3" layoutX="60.0" layoutY="40.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesa 3">
+            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESA 3">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -60,7 +57,7 @@
       <Pane fx:id="paneMesa4" layoutX="142.0" layoutY="364.0" onMouseClicked="#manejarClickMesa" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
          <children>
             <Circle fx:id="circleMesa4" layoutX="60.0" layoutY="40.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesa 4">
+            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESA 4">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -72,7 +69,7 @@
       <Pane fx:id="paneMesa5" layoutX="428.0" layoutY="364.0" onMouseClicked="#manejarClickMesa" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
          <children>
             <Circle fx:id="circleMesa5" layoutX="60.0" layoutY="40.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mesa 5">
+            <Text fill="#333333" layoutX="38.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESA 5">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
