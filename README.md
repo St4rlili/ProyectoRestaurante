@@ -1,6 +1,6 @@
 # Sistema de Gestión de Restaurante
 
-Este proyecto es un sistema de gestión de pedidos para un restaurante, compuesto por tres aplicaciones que se comunican a través de una API RESTful.
+Este proyecto es un sistema de gestión de pedidos para un restaurante, compuesto por tres aplicaciones que se comunican a través de una API REST.
 
 ## Componentes
 
